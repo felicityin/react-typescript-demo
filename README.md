@@ -1,3 +1,23 @@
+# Course Summary
+- Basic & Advanced Props
+- Events & Styles
+- useState
+- useReducer
+- Context API
+- useRef
+- Class components
+- Component as props
+- Generics
+- Restricting props
+- Template literals & Exclude
+- Wrapping HTML & Omit
+- Extracting component prop types
+- Polymorphic components
+
+# Resource
+- youtube: https://www.youtube.com/playlist?list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK
+- bilibili: https://www.bilibili.com/video/BV19R4y1j76R?p=1&vd_source=087c5f035bd330e4e11f51b6adf40d1f
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
