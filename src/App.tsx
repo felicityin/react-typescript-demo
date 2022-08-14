@@ -8,8 +8,8 @@ import { Oscar } from './components/Oscar'
 import { Button } from './components/Button'
 import { Input } from './components/Input'
 import { Container } from './components/Container'
-import { Counter } from  './components/state/Counter'
-import { LoggedIn } from  './components/state/LoggedIn'
+import { Counter } from './components/state/Counter'
+import { LoggedIn } from './components/state/LoggedIn'
 import { User } from './components/state/User'
 import { ThemeContextProvider } from './components/context/ThemeContext'
 import { Box } from './components/context/Box'
@@ -51,52 +51,52 @@ function App() {
 
   return (
     <div className="App">
-      <Greet name='felicityin' isLoggedIn={true}/>
-      <Person name={personName}/>
-      <PersonList names={nameList}/>
-      <Status status='loading'/>
+      <Greet name='felicityin' isLoggedIn={true} />
+      <Person name={personName} />
+      <PersonList names={nameList} />
+      <Status status='loading' />
       <Heading>Placeholder text</Heading>
       <Oscar>
         <Heading>Oscar goes to Leonardo Dicpario!</Heading>
       </Oscar>
       <Button handleClick={(event, id) => {
         console.log('Button clicked', event, id)
-      }}/>
-      <Input value='' handleChange={(event) => console.log(event)}/>
-      <Container styles={{ border: '1px solid black', padding: '1rem'}} />
+      }} />
+      <Input value='' handleChange={(event) => console.log(event)} />
+      <Container styles={{ border: '1px solid black', padding: '1rem' }} />
 
-      <Counter/>
-      <LoggedIn/>
-      <User/>
+      <Counter />
+      <LoggedIn />
+      <User />
 
       <ThemeContextProvider>
-        <Box/>
+        <Box />
       </ThemeContextProvider>
 
       <UserContextProvider>
-        <ContextUser/>
+        <ContextUser />
       </UserContextProvider>
 
-      <DomRef/>
-      <MutableRef/>
+      <DomRef />
+      <MutableRef />
 
-      <ClassCounter message='Counter'/>
+      <ClassCounter message='Counter' />
 
-      <Private isLoggedIn={true} component={Profile}/>
+      <Private isLoggedIn={true} component={Profile} />
 
       <List
         items={['Batman', 'Superman', 'Wonder Woman']}
         onClick={(item) => console.log(item)}
       />
-      <List items={[1, 2, 3]} onClick={(item) => console.log(item)}/>
+      <List items={[1, 2, 3]} onClick={(item) => console.log(item)} />
 
-      <RandomNumber value={10} isPositive/>
+      <RandomNumber value={10} isPositive />
 
-      <Toast position='center'/>
+      <Toast position='center' />
 
       <CustomButton variant='primary'>custom button</CustomButton>
-      <CustomInput/>
-      <CustomComponent name='felicityin' isLoggedIn={true}/>
+      <CustomInput />
+      <CustomComponent name='felicityin' isLoggedIn={true} />
 
       <Text as='h1' size='lg'>Heading</Text>
       <Text as='p' size='md'>Paragraph</Text>
