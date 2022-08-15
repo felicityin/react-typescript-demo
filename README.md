@@ -1,3 +1,7 @@
+# Course
+- youtube: https://www.youtube.com/playlist?list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK
+- bilibili: https://www.bilibili.com/video/BV19R4y1j76R?p=1&vd_source=087c5f035bd330e4e11f51b6adf40d1f
+
 # Course Summary
 - Basic & Advanced Props
 - Events & Styles
@@ -13,10 +17,6 @@
 - Wrapping HTML & Omit
 - Extracting component prop types
 - Polymorphic components
-
-# Resource
-- youtube: https://www.youtube.com/playlist?list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK
-- bilibili: https://www.bilibili.com/video/BV19R4y1j76R?p=1&vd_source=087c5f035bd330e4e11f51b6adf40d1f
 
 # Getting Started with Create React App
 
